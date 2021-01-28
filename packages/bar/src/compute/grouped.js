@@ -42,19 +42,20 @@ const generateVerticalGroupedBars = (
     const compare = reverse ? lt : gt
     const getY = d => (compare(d, 0) ? yScale(d) : yRef)
     const getHeight = (d, y) => (compare(d, 0) ? yRef - y : yScale(d) - yRef)
+    const cleanedData = data.map(filterNullValues)
 
     const bars = flatten(
         keys.map((key, i) =>
             range(0, xScale.domain().length).map(index => {
-                const x = xScale(getIndex(data[index])) + barWidth * i + innerPadding * i
-                const y = getY(data[index][key])
-                const barHeight = getHeight(data[index][key], y)
+                const x = xScale(getIndex(cleanedData[index])) + barWidth * i + innerPadding * i
+                const y = getY(cleanedData[index][key])
+                const barHeight = getHeight(cleanedData[index][key], y)
                 const barData = {
                     id: key,
-                    value: data[index][key],
+                    value: cleanedData[index][key],
                     index,
-                    indexValue: getIndex(data[index]),
-                    data: filterNullValues(data[index]),
+                    indexValue: getIndex(cleanedData[index]),
+                    data: cleanedData[index],
                 }
 
                 return {
@@ -98,19 +99,20 @@ const generateHorizontalGroupedBars = (
     const compare = reverse ? lt : gt
     const getX = d => (compare(d, 0) ? xRef : xScale(d))
     const getWidth = (d, x) => (compare(d, 0) ? xScale(d) - xRef : xRef - x)
+    const cleanedData = data.map(filterNullValues)
 
     const bars = flatten(
         keys.map((key, i) =>
             range(0, yScale.domain().length).map(index => {
-                const x = getX(data[index][key])
-                const y = yScale(getIndex(data[index])) + barHeight * i + innerPadding * i
-                const barWidth = getWidth(data[index][key], x)
+                const x = getX(cleanedData[index][key])
+                const y = yScale(getIndex(cleanedData[index])) + barHeight * i + innerPadding * i
+                const barWidth = getWidth(cleanedData[index][key], x)
                 const barData = {
                     id: key,
-                    value: data[index][key],
+                    value: cleanedData[index][key],
                     index,
-                    indexValue: getIndex(data[index]),
-                    data: filterNullValues(data[index]),
+                    indexValue: getIndex(cleanedData[index]),
+                    data: cleanedData[index],
                 }
 
                 return {
