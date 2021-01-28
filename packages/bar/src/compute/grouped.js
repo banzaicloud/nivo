@@ -47,14 +47,14 @@ const generateVerticalGroupedBars = (
     const bars = flatten(
         keys.map((key, i) =>
             range(0, xScale.domain().length).map(index => {
-                const x = xScale(getIndex(cleanedData[index])) + barWidth * i + innerPadding * i
-                const y = getY(cleanedData[index][key])
-                const barHeight = getHeight(cleanedData[index][key], y)
+                const x = xScale(getIndex(data[index])) + barWidth * i + innerPadding * i
+                const y = getY(data[index][key])
+                const barHeight = getHeight(data[index][key], y)
                 const barData = {
                     id: key,
-                    value: cleanedData[index][key],
+                    value: data[index][key],
                     index,
-                    indexValue: getIndex(cleanedData[index]),
+                    indexValue: getIndex(data[index]),
                     data: cleanedData[index],
                 }
 
@@ -104,14 +104,14 @@ const generateHorizontalGroupedBars = (
     const bars = flatten(
         keys.map((key, i) =>
             range(0, yScale.domain().length).map(index => {
-                const x = getX(cleanedData[index][key])
-                const y = yScale(getIndex(cleanedData[index])) + barHeight * i + innerPadding * i
-                const barWidth = getWidth(cleanedData[index][key], x)
+                const x = getX(data[index][key])
+                const y = yScale(getIndex(data[index])) + barHeight * i + innerPadding * i
+                const barWidth = getWidth(data[index][key], x)
                 const barData = {
                     id: key,
-                    value: cleanedData[index][key],
+                    value: data[index][key],
                     index,
-                    indexValue: getIndex(cleanedData[index]),
+                    indexValue: getIndex(data[index]),
                     data: cleanedData[index],
                 }
 
