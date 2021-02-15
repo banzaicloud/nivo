@@ -33,4 +33,9 @@ export const normalizeData = (data, keys) =>
     }))
 
 export const filterNullValues = data =>
-    Object.keys(data).reduce((acc, key) => (data[key] ? { ...acc, [key]: data[key] } : acc), {})
+    Object.keys(data).reduce((acc, key) => {
+        if (data[key]) {
+            acc[key] = data[key]
+        }
+        return acc
+    }, {})
