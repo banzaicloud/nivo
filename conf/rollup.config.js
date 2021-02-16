@@ -19,9 +19,7 @@ const babelConfig = {
     plugins: ['lodash'],
 }
 
-const externals = [
-    'prop-types',
-]
+const externals = ['prop-types']
 
 const mapGlobal = name => {
     if (name.indexOf('@nivo') === 0) return 'nivo'
@@ -42,12 +40,13 @@ if (fs.existsSync(`./packages/${pkg}/src/index.ts`)) {
 
 const common = {
     input,
-    external: id => externals.includes(id)
-        || id.indexOf('react') === 0
-        || id.indexOf('d3') === 0
-        || id.indexOf('@nivo') === 0
-        || id.indexOf('lodash') === 0
-        || id.indexOf('recompose') === 0,
+    external: id =>
+        externals.includes(id) ||
+        id.indexOf('react') === 0 ||
+        id.indexOf('d3') === 0 ||
+        id.indexOf('@banzaicloud') === 0 ||
+        id.indexOf('lodash') === 0 ||
+        id.indexOf('recompose') === 0,
 }
 
 const commonPlugins = [
@@ -63,7 +62,7 @@ const commonPlugins = [
         modulesOnly: true,
     }),
     babel(babelConfig),
-    cleanup()
+    cleanup(),
 ]
 
 const configs = [
@@ -77,15 +76,17 @@ const configs = [
         },
         plugins: [
             ...commonPlugins,
-            !isWatching && size({
-                filename: `stats/${pkg}-size.es.json`,
-            }),
-            !isWatching && visualizer({
-                filename: `stats/${pkg}-stats.es.json`,
-                json: true,
-            })
+            !isWatching &&
+                size({
+                    filename: `stats/${pkg}-size.es.json`,
+                }),
+            !isWatching &&
+                visualizer({
+                    filename: `stats/${pkg}-stats.es.json`,
+                    json: true,
+                }),
         ].filter(Boolean),
-    }
+    },
 ]
 
 if (!isWatching) {
