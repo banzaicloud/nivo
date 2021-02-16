@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { motionPropTypes, blendModePropType } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
+import { motionPropTypes, blendModePropType } from '@banzaicloud/nivo-core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@banzaicloud/nivo-colors'
+import { axisPropType } from '@banzaicloud/nivo-axes'
 import AreaTooltip from './AreaTooltip'
 
 const commonPropTypes = {

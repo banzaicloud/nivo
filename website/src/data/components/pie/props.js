@@ -1,5 +1,5 @@
-import { defaultProps } from '@nivo/pie'
-import { arcTransitionModes } from '@nivo/arcs'
+import { defaultProps } from '@banzaicloud/nivo-pie'
+import { arcTransitionModes } from '@banzaicloud/nivo-arcs'
 import {
     themeProperty,
     defsProperties,

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Dimensions, Box, Theme } from '@nivo/core'
+import { Dimensions, Box, Theme } from '@banzaicloud/nivo-core'
 
-declare module '@nivo/voronoi' {
+declare module '@banzaicloud/nivo-voronoi' {
     export interface VoronoiDatum {
         id: string | number
         x: number

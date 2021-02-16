@@ -8,7 +8,7 @@
  */
 import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
-import { TooltipProvider, Tooltip } from '@nivo/tooltip'
+import { TooltipProvider, Tooltip } from '@banzaicloud/nivo-tooltip'
 import { ThemeProvider } from '../theming'
 import { MotionConfigProvider } from '../motion'
 import { ConditionalWrapper } from './ConditionalWrapper'

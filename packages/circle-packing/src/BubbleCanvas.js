@@ -8,7 +8,7 @@
  */
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react'
-import { LegacyContainer } from '@nivo/core'
+import { LegacyContainer } from '@banzaicloud/nivo-core'
 import enhance from './enhance'
 
 class BubbleCanvas extends Component {

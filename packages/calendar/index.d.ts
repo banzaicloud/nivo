@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Dimensions, Theme, Box, BoxAlign } from '@nivo/core'
-import { LegendProps } from '@nivo/legends'
+import { Dimensions, Theme, Box, BoxAlign } from '@banzaicloud/nivo-core'
+import { LegendProps } from '@banzaicloud/nivo-legends'
 
-declare module '@nivo/calendar' {
+declare module '@banzaicloud/nivo-calendar' {
     export type DateOrString = string | Date
 
     export interface CalendarDatum {

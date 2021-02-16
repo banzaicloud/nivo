@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { MotionConfigProvider } from '@nivo/core'
-import { motionPropTypes } from '@nivo/core'
-import { annotationSpecPropType } from '@nivo/annotations'
+import { ordinalColorsPropType, inheritedColorPropType } from '@banzaicloud/nivo-colors'
+import { MotionConfigProvider } from '@banzaicloud/nivo-core'
+import { motionPropTypes } from '@banzaicloud/nivo-core'
+import { annotationSpecPropType } from '@banzaicloud/nivo-annotations'
 
 export const FunnelPropTypes = {
     data: PropTypes.arrayOf(

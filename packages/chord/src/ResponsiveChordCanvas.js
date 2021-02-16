@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@banzaicloud/nivo-core'
 import ChordCanvas from './ChordCanvas'
 
 const ResponsiveChordCanvas = props => (

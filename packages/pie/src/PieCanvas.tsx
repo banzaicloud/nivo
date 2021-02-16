@@ -5,11 +5,11 @@ import {
     useDimensions,
     useTheme,
     Container,
-} from '@nivo/core'
+} from '@banzaicloud/nivo-core'
 // @ts-ignore
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useInheritedColor, InheritedColorConfig } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { renderLegendToCanvas } from '@banzaicloud/nivo-legends'
+import { useInheritedColor, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
 import {
     Arc,
     findArcUnderCursor,
@@ -17,7 +17,7 @@ import {
     drawCanvasArcLabels,
     useArcLinkLabels,
     drawCanvasArcLinkLabels,
-} from '@nivo/arcs'
+} from '@banzaicloud/nivo-arcs'
 import { useNormalizedData, usePieFromBox } from './hooks'
 import { ComputedDatum, PieCanvasProps } from './types'
 import { defaultProps } from './props'

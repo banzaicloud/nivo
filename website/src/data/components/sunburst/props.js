@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { defaultProps } from '@nivo/sunburst'
+import { defaultProps } from '@banzaicloud/nivo-sunburst'
 import { groupProperties, defsProperties, motionProperties } from '../../../lib/componentProperties'
 
 const props = [

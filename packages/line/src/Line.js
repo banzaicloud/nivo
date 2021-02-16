@@ -14,11 +14,11 @@ import {
     useTheme,
     SvgWrapper,
     CartesianMarkers,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { Axes, Grid } from '@nivo/axes'
-import { BoxLegendSvg } from '@nivo/legends'
-import { Crosshair } from '@nivo/tooltip'
+} from '@banzaicloud/nivo-core'
+import { useInheritedColor } from '@banzaicloud/nivo-colors'
+import { Axes, Grid } from '@banzaicloud/nivo-axes'
+import { BoxLegendSvg } from '@banzaicloud/nivo-legends'
+import { Crosshair } from '@banzaicloud/nivo-tooltip'
 import { useLine } from './hooks'
 import { LinePropTypes, LineDefaultProps } from './props'
 import Areas from './Areas'

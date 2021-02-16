@@ -1,5 +1,5 @@
 import React from 'react'
-import { Marimekko } from '@nivo/marimekko'
+import { Marimekko } from '@banzaicloud/nivo-marimekko'
 import marimekkoLightNeutralImg from '../../assets/icons/marimekko-light-neutral.png'
 import marimekkoLightColoredImg from '../../assets/icons/marimekko-light-colored.png'
 import marimekkoDarkNeutralImg from '../../assets/icons/marimekko-dark-neutral.png'

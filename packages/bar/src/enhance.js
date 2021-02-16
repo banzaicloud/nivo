@@ -16,8 +16,8 @@ import {
     withMotion,
     getPropertyAccessor,
     getLabelGenerator,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@banzaicloud/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@banzaicloud/nivo-colors'
 import { BarDefaultProps } from './props'
 
 export default Component =>

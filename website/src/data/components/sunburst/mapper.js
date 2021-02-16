@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import styled from 'styled-components'
-import { patternLinesDef } from '@nivo/core'
+import { patternLinesDef } from '@banzaicloud/nivo-core'
 import { settingsMapper } from '../../../lib/settings'
 
 const TooltipWrapper = styled.div`

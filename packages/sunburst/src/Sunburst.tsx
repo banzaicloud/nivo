@@ -1,6 +1,6 @@
 import React, { Fragment, ReactNode, createElement, useMemo } from 'react'
 // @ts-ignore
-import { Container, SvgWrapper, useDimensions, bindDefs } from '@nivo/core'
+import { Container, SvgWrapper, useDimensions, bindDefs } from '@banzaicloud/nivo-core'
 import { SunburstLabels } from './SunburstLabels'
 import { SunburstArc } from './SunburstArc'
 import { defaultProps } from './props'

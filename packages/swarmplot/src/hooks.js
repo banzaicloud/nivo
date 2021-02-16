@@ -8,9 +8,9 @@
  */
 import React, { useMemo, useCallback } from 'react'
 import get from 'lodash/get'
-import { useValueFormatter } from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { useValueFormatter } from '@banzaicloud/nivo-core'
+import { useOrdinalColorScale } from '@banzaicloud/nivo-colors'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
 
 import {
     computeValueScale,
@@ -19,7 +19,7 @@ import {
     computeNodes,
     getSizeGenerator,
 } from './compute'
-import { useAnnotations } from '@nivo/annotations'
+import { useAnnotations } from '@banzaicloud/nivo-annotations'
 import SwarmPlotTooltip from './SwarmPlotTooltip'
 
 export const useValueScale = ({ width, height, axis, getValue, scale, data }) =>

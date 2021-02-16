@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@banzaicloud/nivo-core'
 import { Pie } from './Pie'
 import { PieSvgProps } from './types'
 

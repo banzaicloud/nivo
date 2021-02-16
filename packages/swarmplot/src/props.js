@@ -7,15 +7,15 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { axisPropType } from '@nivo/axes'
-import { motionPropTypes } from '@nivo/core'
+import { axisPropType } from '@banzaicloud/nivo-axes'
+import { motionPropTypes } from '@banzaicloud/nivo-core'
 import {
     ordinalColorsPropType,
     inheritedColorPropType,
     colorPropertyAccessorPropType,
-} from '@nivo/colors'
-import { scalePropType } from '@nivo/scales'
-import { annotationSpecPropType } from '@nivo/annotations'
+} from '@banzaicloud/nivo-colors'
+import { scalePropType } from '@banzaicloud/nivo-scales'
+import { annotationSpecPropType } from '@banzaicloud/nivo-annotations'
 
 const commonPropTypes = {
     data: PropTypes.arrayOf(PropTypes.object).isRequired,

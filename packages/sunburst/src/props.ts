@@ -1,4 +1,4 @@
-import { OrdinalColorScaleConfig } from '@nivo/colors'
+import { OrdinalColorScaleConfig } from '@banzaicloud/nivo-colors'
 import { SunburstTooltip } from './SunburstTooltip'
 import { SunburstLayerId } from './types'
 

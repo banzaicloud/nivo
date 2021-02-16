@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { patternDotsDef, patternLinesDef, patternSquaresDef } from '@nivo/core'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveTreeMap } from '@nivo/treemap'
-import { generateCountriesData } from '@nivo/generators'
+import { patternDotsDef, patternLinesDef, patternSquaresDef } from '@banzaicloud/nivo-core'
+import { ResponsiveBar } from '@banzaicloud/nivo-bar'
+import { ResponsiveStream } from '@banzaicloud/nivo-stream'
+import { ResponsiveTreeMap } from '@banzaicloud/nivo-treemap'
+import { generateCountriesData } from '@banzaicloud/nivo-generators'
 import { FullWidthBanner } from '../../styled'
 import { useTheme } from '../../../theming/context'
 

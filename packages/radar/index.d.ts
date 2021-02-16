@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import { Component } from 'react'
-import { Box, MotionProps, Dimensions, Theme, CssMixBlendMode } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, MotionProps, Dimensions, Theme, CssMixBlendMode } from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
 
-declare module '@nivo/radar' {
+declare module '@banzaicloud/nivo-radar' {
     export type GridLabelProps = {
         id: string
         anchor: 'start' | 'middle' | 'end'

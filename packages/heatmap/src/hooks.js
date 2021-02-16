@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { scaleOrdinal, scaleLinear } from 'd3-scale'
-import { useTheme, usePropertyAccessor, guessQuantizeColorScale } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+import { useTheme, usePropertyAccessor, guessQuantizeColorScale } from '@banzaicloud/nivo-core'
+import { useInheritedColor } from '@banzaicloud/nivo-colors'
 
 const computeX = (column, cellWidth, padding) => {
     return column * cellWidth + cellWidth * 0.5 + padding * column + padding

@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Dimensions, Box, Theme, MotionProps } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
+import { Dimensions, Box, Theme, MotionProps } from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
 
-declare module '@nivo/funnel' {
+declare module '@banzaicloud/nivo-funnel' {
     export interface Position {
         x: number
         y: number

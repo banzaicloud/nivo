@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateCountriesData } from '@nivo/generators'
+import { generateCountriesData } from '@banzaicloud/nivo-generators'
 import { BarCanvas } from '../src'
 import { button } from '@storybook/addon-knobs'
 

@@ -1,6 +1,6 @@
 import { Arc } from 'd3-shape'
 import { HierarchyRectangularNode } from 'd3-hierarchy'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
 import {
     Theme,
     Dimensions,
@@ -9,7 +9,7 @@ import {
     SvgDefsAndFill,
     ModernMotionProps,
     PropertyAccessor,
-} from '@nivo/core'
+} from '@banzaicloud/nivo-core'
 
 export type DatumId = string | number
 export type DatumValue = number

@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Dimensions, Box, Theme, MotionProps } from '@nivo/core'
-import { InheritedColorConfig } from '@nivo/colors'
+import { Dimensions, Box, Theme, MotionProps } from '@banzaicloud/nivo-core'
+import { InheritedColorConfig } from '@banzaicloud/nivo-colors'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/network' {
+declare module '@banzaicloud/nivo-network' {
     export interface InputNode {
         id: string
         [key: string]: any

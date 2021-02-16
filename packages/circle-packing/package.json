@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/circle-packing",
+  "name": "@banzaicloud/nivo-circle-packing",
   "version": "0.67.2",
   "license": "MIT",
   "author": {
@@ -27,18 +27,18 @@
     "dist/"
   ],
   "dependencies": {
-    "@nivo/colors": "0.67.2",
-    "@nivo/tooltip": "0.67.2",
+    "@banzaicloud/nivo-colors": "0.67.2",
+    "@banzaicloud/nivo-tooltip": "0.67.2",
     "d3-hierarchy": "^1.1.8",
     "lodash": "^4.17.11",
     "react-motion": "^0.5.2",
     "recompose": "^0.30.0"
   },
   "devDependencies": {
-    "@nivo/core": "0.67.2"
+    "@banzaicloud/nivo-core": "0.67.2"
   },
   "peerDependencies": {
-    "@nivo/core": "0.67.2",
+    "@banzaicloud/nivo-core": "0.67.2",
     "prop-types": ">= 15.5.10 < 16.0.0",
     "react": ">= 16.8.4 < 18.0.0"
   },

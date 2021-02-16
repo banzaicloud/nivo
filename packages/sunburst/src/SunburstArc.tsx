@@ -1,6 +1,6 @@
 import React from 'react'
 import { animated, to, useSpring } from 'react-spring'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@banzaicloud/nivo-core'
 import { useEventHandlers } from './hooks'
 import { SunburstArcProps } from './types'
 

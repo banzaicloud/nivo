@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, boolean, select } from '@storybook/addon-knobs'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@banzaicloud/nivo-generators'
 // @ts-ignore
-import { linearGradientDef, patternDotsDef, useTheme } from '@nivo/core'
+import { linearGradientDef, patternDotsDef, useTheme } from '@banzaicloud/nivo-core'
 import { Sunburst, NormalizedDatum } from '../src'
 
 const commonProperties = {

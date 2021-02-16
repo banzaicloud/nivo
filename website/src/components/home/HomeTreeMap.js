@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateLibTree } from '@nivo/generators'
-import { ResponsiveTreeMapCanvas } from '@nivo/treemap'
+import { generateLibTree } from '@banzaicloud/nivo-generators'
+import { ResponsiveTreeMapCanvas } from '@banzaicloud/nivo-treemap'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeTreeMap = ({ colors, nivoTheme }) => {

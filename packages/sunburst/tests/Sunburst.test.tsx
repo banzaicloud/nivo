@@ -1,7 +1,7 @@
 import React from 'react'
 import { mount } from 'enzyme'
 // @ts-ignore
-import { linearGradientDef, patternDotsDef } from '@nivo/core'
+import { linearGradientDef, patternDotsDef } from '@banzaicloud/nivo-core'
 import { Sunburst } from '../src'
 
 interface CustomSampleData {

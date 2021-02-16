@@ -5,9 +5,9 @@ import {
     useDimensions,
     Container,
     SvgWrapper,
-} from '@nivo/core'
-import { ArcLabelsLayer, ArcLinkLabelsLayer } from '@nivo/arcs'
-import { InheritedColorConfig } from '@nivo/colors'
+} from '@banzaicloud/nivo-core'
+import { ArcLabelsLayer, ArcLinkLabelsLayer } from '@banzaicloud/nivo-arcs'
+import { InheritedColorConfig } from '@banzaicloud/nivo-colors'
 import PieLegends from './PieLegends'
 import { useNormalizedData, usePieFromBox, usePieLayerContext } from './hooks'
 import { ComputedDatum, PieLayer, PieSvgProps, PieLayerId } from './types'

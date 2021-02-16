@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import { get } from 'lodash'
 import { pie as d3Pie } from 'd3-shape'
-import { ArcGenerator, useArcGenerator, computeArcBoundingBox } from '@nivo/arcs'
-import { degreesToRadians, radiansToDegrees, useValueFormatter } from '@nivo/core'
-import { OrdinalColorScaleConfig, useOrdinalColorScale } from '@nivo/colors'
+import { ArcGenerator, useArcGenerator, computeArcBoundingBox } from '@banzaicloud/nivo-arcs'
+import { degreesToRadians, radiansToDegrees, useValueFormatter } from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, useOrdinalColorScale } from '@banzaicloud/nivo-colors'
 import { defaultProps } from './props'
 import { CompletePieSvgProps, ComputedDatum, PieArc, PieCustomLayerProps } from './types'
 

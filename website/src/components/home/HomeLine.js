@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateDrinkStats } from '@nivo/generators'
-import { ResponsiveLine } from '@nivo/line'
+import { generateDrinkStats } from '@banzaicloud/nivo-generators'
+import { ResponsiveLine } from '@banzaicloud/nivo-line'
 import { HomeItem, HomeItemLabel } from './styled'
 import { commonAxes } from './settings'
 

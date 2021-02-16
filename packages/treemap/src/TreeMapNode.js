@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { animated, to } from 'react-spring'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@banzaicloud/nivo-core'
 
 const TreeMapNode = ({
     node,

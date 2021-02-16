@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React, { memo, useState, Fragment } from 'react'
-import { withContainer, useDimensions, SvgWrapper } from '@nivo/core'
-import { Grid, Axes } from '@nivo/axes'
+import { withContainer, useDimensions, SvgWrapper } from '@banzaicloud/nivo-core'
+import { Grid, Axes } from '@banzaicloud/nivo-axes'
 import { useBump } from './hooks'
 import { BumpPropTypes, BumpDefaultProps } from './props'
 import Line from './Line'

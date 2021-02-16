@@ -1,6 +1,6 @@
 import React, { CSSProperties, memo, ReactNode } from 'react'
 // @ts-ignore
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@banzaicloud/nivo-core'
 
 const tableStyle = {
     width: '100%',

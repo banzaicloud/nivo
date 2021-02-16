@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateLibTree } from '@nivo/generators'
-import { linearGradientDef, patternDotsDef } from '@nivo/core'
+import { generateLibTree } from '@banzaicloud/nivo-generators'
+import { linearGradientDef, patternDotsDef } from '@banzaicloud/nivo-core'
 import { TreeMap } from '../src'
 
 const commonProperties = {

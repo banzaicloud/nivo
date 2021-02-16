@@ -1,8 +1,8 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { interpolateColor, getInterpolatedColor } from '@nivo/colors'
-import { useMotionConfig } from '@nivo/core'
+import { interpolateColor, getInterpolatedColor } from '@banzaicloud/nivo-colors'
+import { useMotionConfig } from '@banzaicloud/nivo-core'
 import ChordArc from './ChordArc'
 
 const ChordArcs = memo(

@@ -14,13 +14,13 @@ import {
     MotionProps,
     SvgDefsAndFill,
     CartesianMarkerProps,
-} from '@nivo/core'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale, BandScale } from '@nivo/scales'
+} from '@banzaicloud/nivo-core'
+import { AxisProps, GridValues } from '@banzaicloud/nivo-axes'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
+import { Scale, BandScale } from '@banzaicloud/nivo-scales'
 
-declare module '@nivo/bar' {
+declare module '@banzaicloud/nivo-bar' {
     export type Value = string | number
 
     export interface Data {

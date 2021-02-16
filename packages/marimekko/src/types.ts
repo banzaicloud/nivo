@@ -7,10 +7,10 @@ import {
     stackOffsetWiggle,
 } from 'd3-shape'
 import { ScaleLinear } from 'd3-scale'
-import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@nivo/core'
-import { AxisProps } from '@nivo/axes'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@banzaicloud/nivo-core'
+import { AxisProps } from '@banzaicloud/nivo-axes'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
 
 export type DatumId = string | number
 export type DatumValue = number

@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsiveChord } from '@nivo/chord'
-import { generateChordData } from '@nivo/generators'
+import { ResponsiveChord } from '@banzaicloud/nivo-chord'
+import { generateChordData } from '@banzaicloud/nivo-generators'
 import { colors } from '../../constants'
 
 const Chord = () => (

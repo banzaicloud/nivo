@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@banzaicloud/nivo-core'
 import { SpringValue, Interpolation, animated } from 'react-spring'
 import { DatumWithArcAndColor } from '../types'
 

@@ -8,9 +8,9 @@
  */
 import { useMemo } from 'react'
 import { area, line } from 'd3-shape'
-import { curveFromProp, useTheme, useValueFormatter } from '@nivo/core'
-import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
-import { computeXYScalesForSeries } from '@nivo/scales'
+import { curveFromProp, useTheme, useValueFormatter } from '@banzaicloud/nivo-core'
+import { useOrdinalColorScale, useInheritedColor } from '@banzaicloud/nivo-colors'
+import { computeXYScalesForSeries } from '@banzaicloud/nivo-scales'
 import { LineDefaultProps } from './props'
 
 export const useLineGenerator = ({ curve }) => {

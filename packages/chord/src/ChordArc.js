@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { useTooltip } from '@nivo/tooltip'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
 
 const ChordArc = memo(
     ({

@@ -15,7 +15,7 @@ const {
     generateProgrammingLanguageStats,
     generateWinesTastes,
     generateSankeyData,
-} = require('@nivo/generators')
+} = require('@banzaicloud/nivo-generators')
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']
 

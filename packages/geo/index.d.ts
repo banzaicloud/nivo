@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Dimensions, Theme, Box, BoxAlign } from '@nivo/core'
+import { Dimensions, Theme, Box, BoxAlign } from '@banzaicloud/nivo-core'
 
-declare module '@nivo/geo' {
+declare module '@banzaicloud/nivo-geo' {
     ///////////////////////////////////////////////////////////////////////////
     // Common
     ///////////////////////////////////////////////////////////////////////////

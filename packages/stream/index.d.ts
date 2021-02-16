@@ -16,13 +16,13 @@ import {
     StackOffset,
     AreaCurve,
     SvgDefsAndFill,
-} from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale } from '@nivo/scales'
-import { AxisProps } from '@nivo/axes'
+} from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
+import { Scale } from '@banzaicloud/nivo-scales'
+import { AxisProps } from '@banzaicloud/nivo-axes'
 
-declare module '@nivo/stream' {
+declare module '@banzaicloud/nivo-stream' {
     export type TooltipFormatter<T> = (value: T) => React.ReactNode
     export type TooltipLabel<T> = (value: T) => string
 

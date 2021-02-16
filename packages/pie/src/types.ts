@@ -1,14 +1,14 @@
 import * as React from 'react'
-import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@nivo/core'
+import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@banzaicloud/nivo-core'
 import {
     Arc,
     ArcGenerator,
     ArcTransitionMode,
     ArcLabelsProps,
     ArcLinkLabelsProps,
-} from '@nivo/arcs'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+} from '@banzaicloud/nivo-arcs'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
 
 export type DatumId = string | number
 export type DatumValue = number

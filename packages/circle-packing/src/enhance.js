@@ -20,8 +20,8 @@ import {
     getPropertyAccessor,
     getLabelGenerator,
     bindDefs,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@banzaicloud/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@banzaicloud/nivo-colors'
 import { computeNodes, computeZoom } from './compute'
 import * as props from './props'
 

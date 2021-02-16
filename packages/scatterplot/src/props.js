@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { motionPropTypes, blendModePropType } from '@nivo/core'
-import { ordinalColorsPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
-import { scalePropType } from '@nivo/scales'
-import { annotationSpecPropType } from '@nivo/annotations'
+import { motionPropTypes, blendModePropType } from '@banzaicloud/nivo-core'
+import { ordinalColorsPropType } from '@banzaicloud/nivo-colors'
+import { axisPropType } from '@banzaicloud/nivo-axes'
+import { LegendPropShape } from '@banzaicloud/nivo-legends'
+import { scalePropType } from '@banzaicloud/nivo-scales'
+import { annotationSpecPropType } from '@banzaicloud/nivo-annotations'
 import Node from './Node'
 import Tooltip from './Tooltip'
 

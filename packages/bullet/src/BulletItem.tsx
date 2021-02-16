@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react'
 import { useSpring, animated } from 'react-spring'
-import { Axis } from '@nivo/axes'
+import { Axis } from '@banzaicloud/nivo-axes'
 // @ts-ignore
-import { getColorScale, useMotionConfig, useTheme } from '@nivo/core'
-import { BasicTooltip, useTooltip } from '@nivo/tooltip'
+import { getColorScale, useMotionConfig, useTheme } from '@banzaicloud/nivo-core'
+import { BasicTooltip, useTooltip } from '@banzaicloud/nivo-tooltip'
 import { stackValues } from './compute'
 import { BulletMarkers } from './BulletMarkers'
 import { BulletRects } from './BulletRects'

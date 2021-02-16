@@ -8,8 +8,8 @@
  */
 import React, { memo, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { useTooltip } from '@nivo/tooltip'
-import { Mesh as BaseMesh } from '@nivo/voronoi'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
+import { Mesh as BaseMesh } from '@banzaicloud/nivo-voronoi'
 
 const Mesh = ({
     points,

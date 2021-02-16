@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateWinesTastes } from '@nivo/generators'
-import { ResponsiveRadar } from '@nivo/radar'
+import { generateWinesTastes } from '@banzaicloud/nivo-generators'
+import { ResponsiveRadar } from '@banzaicloud/nivo-radar'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeRadar = ({ colors, nivoTheme }) => {

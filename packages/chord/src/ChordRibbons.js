@@ -2,8 +2,8 @@ import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import mapValues from 'lodash/mapValues'
 import { TransitionMotion, spring } from 'react-motion'
-import { blendModePropType, midAngle, useMotionConfig } from '@nivo/core'
-import { interpolateColor, getInterpolatedColor } from '@nivo/colors'
+import { blendModePropType, midAngle, useMotionConfig } from '@banzaicloud/nivo-core'
+import { interpolateColor, getInterpolatedColor } from '@banzaicloud/nivo-colors'
 import ChordRibbon from './ChordRibbon'
 
 /**

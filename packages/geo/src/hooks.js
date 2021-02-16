@@ -23,9 +23,9 @@ import {
     geoNaturalEarth1,
     geoGraticule,
 } from 'd3-geo'
-import { guessQuantizeColorScale, useTheme } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { useQuantizeColorScaleLegendData } from '@nivo/legends'
+import { guessQuantizeColorScale, useTheme } from '@banzaicloud/nivo-core'
+import { useInheritedColor } from '@banzaicloud/nivo-colors'
+import { useQuantizeColorScaleLegendData } from '@banzaicloud/nivo-legends'
 
 export const projectionById = {
     azimuthalEqualArea: geoAzimuthalEqualArea,

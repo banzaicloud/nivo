@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { OpaqueInterpolation, SpringConfig } from 'react-spring'
 
-declare module '@nivo/core' {
+declare module '@banzaicloud/nivo-core' {
     export type DatumValue = string | number | Date
 
     export interface Dimensions {

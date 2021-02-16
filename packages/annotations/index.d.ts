@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import { Component, ReactNode } from 'react'
-import { MotionProps } from '@nivo/core'
+import { MotionProps } from '@banzaicloud/nivo-core'
 
-declare module '@nivo/annotations' {
+declare module '@banzaicloud/nivo-annotations' {
     export type AnnotationType = 'circle' | 'dot' | 'rect'
 
     export type NoteCoordinate = number | { abs: number | string }

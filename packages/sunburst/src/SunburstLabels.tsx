@@ -8,8 +8,8 @@ import {
     radiansToDegrees,
     useTheme,
     useMotionConfig,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+} from '@banzaicloud/nivo-core'
+import { useInheritedColor } from '@banzaicloud/nivo-colors'
 import { animated, useTransition } from 'react-spring'
 import { SunburstLabelProps } from './types'
 

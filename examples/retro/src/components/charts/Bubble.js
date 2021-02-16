@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsiveBubble } from '@nivo/circle-packing'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveBubble } from '@banzaicloud/nivo-circle-packing'
+import { generateCountriesData } from '@banzaicloud/nivo-generators'
 import { colors } from '../../constants'
 
 const Bubble = () => (

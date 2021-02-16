@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import { Component } from 'react'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { Box, MotionProps, Dimensions, Theme } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
+import { AxisProps, GridValues } from '@banzaicloud/nivo-axes'
+import { Box, MotionProps, Dimensions, Theme } from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
 
-declare module '@nivo/swarmplot' {
+declare module '@banzaicloud/nivo-swarmplot' {
     export interface ComputedNode<Datum> {
         id: string
         index: number

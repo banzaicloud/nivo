@@ -13,12 +13,16 @@ import {
     useTheme,
     getRelativeCursor,
     isCursorInRect,
-} from '@nivo/core'
-import { renderAnnotationsToCanvas } from '@nivo/annotations'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
-import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
+} from '@banzaicloud/nivo-core'
+import { renderAnnotationsToCanvas } from '@banzaicloud/nivo-annotations'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@banzaicloud/nivo-axes'
+import { renderLegendToCanvas } from '@banzaicloud/nivo-legends'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
+import {
+    useVoronoiMesh,
+    renderVoronoiToCanvas,
+    renderVoronoiCellToCanvas,
+} from '@banzaicloud/nivo-voronoi'
 import { ScatterPlotCanvasPropTypes, ScatterPlotCanvasDefaultProps } from './props'
 import { useScatterPlot, useScatterPlotAnnotations } from './hooks'
 

@@ -7,8 +7,8 @@ import {
     stackOrderFromProp,
     stackOffsetFromProp,
     useValueFormatter,
-} from '@nivo/core'
-import { useInheritedColor, useOrdinalColorScale } from '@nivo/colors'
+} from '@banzaicloud/nivo-core'
+import { useInheritedColor, useOrdinalColorScale } from '@banzaicloud/nivo-colors'
 
 const stackMin = layers =>
     Math.min(...layers.reduce((acc, layer) => [...acc, ...layer.map(d => d[0])], []))

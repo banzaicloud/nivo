@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@banzaicloud/nivo-tooltip'
 import { NormalizedDatum } from './types'
 
 export const SunburstTooltip = <RawDatum,>({

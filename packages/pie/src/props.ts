@@ -1,5 +1,5 @@
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { ArcTransitionMode } from '@nivo/arcs'
+import { OrdinalColorScaleConfig } from '@banzaicloud/nivo-colors'
+import { ArcTransitionMode } from '@banzaicloud/nivo-arcs'
 import { PieTooltip } from './PieTooltip'
 
 export const defaultProps = {

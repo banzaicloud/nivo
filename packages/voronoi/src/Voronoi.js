@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React, { Fragment } from 'react'
-import { LegacyContainer, SvgWrapper } from '@nivo/core'
+import { LegacyContainer, SvgWrapper } from '@banzaicloud/nivo-core'
 import enhance from './enhance'
 import { VoronoiPropTypes } from './props'
 

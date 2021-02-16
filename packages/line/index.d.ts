@@ -16,16 +16,16 @@ import {
     SvgDefsAndFill,
     DataFormatter,
     DatumValue as CoreDatumValue,
-} from '@nivo/core'
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale, ScaleFunc } from '@nivo/scales'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { CrosshairType } from '@nivo/tooltip'
+} from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
+import { Scale, ScaleFunc } from '@banzaicloud/nivo-scales'
+import { AxisProps, GridValues } from '@banzaicloud/nivo-axes'
+import { CrosshairType } from '@banzaicloud/nivo-tooltip'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/line' {
+declare module '@banzaicloud/nivo-line' {
     export type DatumValue = CoreDatumValue
 
     export interface Datum {

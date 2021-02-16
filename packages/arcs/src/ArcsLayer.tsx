@@ -1,6 +1,6 @@
 import React, { createElement } from 'react'
-import { useTheme } from '@nivo/core'
-import { InheritedColorConfig, useInheritedColor } from '@nivo/colors'
+import { useTheme } from '@banzaicloud/nivo-core'
+import { InheritedColorConfig, useInheritedColor } from '@banzaicloud/nivo-colors'
 import { DatumWithArcAndColor, ArcGenerator } from './types'
 import { useArcsTransition } from './useArcsTransition'
 import { ArcTransitionMode } from './arcTransitionMode'

@@ -14,15 +14,15 @@ import {
     MotionProps,
     CartesianMarkerProps,
     CssMixBlendMode,
-} from '@nivo/core'
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { Scale } from '@nivo/scales'
+} from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
+import { AxisProps, GridValues } from '@banzaicloud/nivo-axes'
+import { Scale } from '@banzaicloud/nivo-scales'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/scatterplot' {
+declare module '@banzaicloud/nivo-scatterplot' {
     export type Value = number | string | Date
     export type ValueFormatter = (value: Value) => string | number
 

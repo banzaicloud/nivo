@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
-import { useValueFormatter, getLabelGenerator } from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
+import { useValueFormatter, getLabelGenerator } from '@banzaicloud/nivo-core'
+import { useOrdinalColorScale } from '@banzaicloud/nivo-colors'
 import { computeChordLayout, computeChordGenerators, computeChordArcsAndRibbons } from './compute'
 
 export const useChordLayout = ({ padAngle }) =>

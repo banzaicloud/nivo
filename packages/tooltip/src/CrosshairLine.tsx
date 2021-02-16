@@ -1,6 +1,6 @@
 import React, { CSSProperties, memo, useMemo } from 'react'
 import { useSpring, animated } from 'react-spring'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme, useMotionConfig } from '@banzaicloud/nivo-core'
 
 interface CrosshairLineProps {
     x0: number

@@ -5,10 +5,10 @@ import {
     Container,
     SvgWrapper,
     useDimensions,
-} from '@nivo/core'
-import { Grid, Axes } from '@nivo/axes'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { BoxLegendSvg } from '@nivo/legends'
+} from '@banzaicloud/nivo-core'
+import { Grid, Axes } from '@banzaicloud/nivo-axes'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@banzaicloud/nivo-colors'
+import { BoxLegendSvg } from '@banzaicloud/nivo-legends'
 import { SvgProps, LayerId, DimensionDatum } from './types'
 import { defaultProps } from './props'
 import { useMarimekko, useLayerContext, useLegendData } from './hooks'

@@ -7,15 +7,15 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, defsPropTypes } from '@nivo/core'
+import { noop, defsPropTypes } from '@banzaicloud/nivo-core'
 import {
     ordinalColorsPropType,
     colorPropertyAccessorPropType,
     inheritedColorPropType,
-} from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
-import { scalePropType, bandScalePropTypes } from '@nivo/scales'
+} from '@banzaicloud/nivo-colors'
+import { axisPropType } from '@banzaicloud/nivo-axes'
+import { LegendPropShape } from '@banzaicloud/nivo-legends'
+import { scalePropType, bandScalePropTypes } from '@banzaicloud/nivo-scales'
 import BarItem from './BarItem'
 
 export const BarPropTypes = {

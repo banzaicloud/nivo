@@ -2,10 +2,10 @@ import pick from 'lodash/pick'
 import sortBy from 'lodash/sortBy'
 import cloneDeep from 'lodash/cloneDeep'
 import React, { createElement, useCallback, useMemo } from 'react'
-import { usePropertyAccessor, useTheme, useValueFormatter } from '@nivo/core'
+import { usePropertyAccessor, useTheme, useValueFormatter } from '@banzaicloud/nivo-core'
 import { arc, Arc } from 'd3-shape'
-import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { useOrdinalColorScale, useInheritedColor } from '@banzaicloud/nivo-colors'
+import { useTooltip } from '@banzaicloud/nivo-tooltip'
 import { partition as d3Partition, hierarchy as d3Hierarchy } from 'd3-hierarchy'
 import {
     CommonProps,

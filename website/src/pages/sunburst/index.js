@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveSunburst } from '@nivo/sunburst'
-import { generateLibTree } from '@nivo/generators'
+import { ResponsiveSunburst } from '@banzaicloud/nivo-sunburst'
+import { generateLibTree } from '@banzaicloud/nivo-generators'
 import { omit } from 'lodash'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/sunburst/meta.yml'

@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Theme, CssMixBlendMode, Box, Dimensions, MotionProps } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Theme, CssMixBlendMode, Box, Dimensions, MotionProps } from '@banzaicloud/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@banzaicloud/nivo-colors'
+import { LegendProps } from '@banzaicloud/nivo-legends'
 
-declare module '@nivo/sankey' {
+declare module '@banzaicloud/nivo-sankey' {
     interface SharedProps extends Data, MotionProps, SankeyProps {}
 
     export class Sankey extends React.Component<SharedProps & Dimensions> {}
