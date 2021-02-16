@@ -1,3 +1,13 @@
+<a name="v0.67.2"></a>
+## v0.67.2 (2021-02-16)
+
+
+#### Chore
+
+*   update repository url in all package.json ([19fa7d2e](https://github.com/plouc/nivo/commit/19fa7d2e3467e4029e9811ec9df6c2623b67031c))
+
+
+
 <a name="v0.67.1"></a>
 ## v0.67.1 (2021-02-16)
 

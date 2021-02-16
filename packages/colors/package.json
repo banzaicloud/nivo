@@ -1,6 +1,6 @@
 {
   "name": "@banzaicloud/nivo-colors",
-  "version": "0.67.2",
+  "version": "0.67.3",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -28,14 +28,14 @@
     "react-motion": "^0.5.2"
   },
   "devDependencies": {
-    "@banzaicloud/nivo-core": "0.67.2",
+    "@banzaicloud/nivo-core": "0.67.3",
     "@types/d3-color": "^2.0.0",
     "@types/d3-scale-chromatic": "^2.0.0",
     "@types/lodash": "^4.14.149",
     "@types/react-motion": "^0.0.29"
   },
   "peerDependencies": {
-    "@banzaicloud/nivo-core": "0.67.2",
+    "@banzaicloud/nivo-core": "0.67.3",
     "prop-types": ">= 15.5.10 < 16.0.0",
     "react": ">= 16.8.4 <= 17.0.0"
   },
