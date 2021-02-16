@@ -1,3 +1,66 @@
+<a name="v0.67.1"></a>
+## v0.67.1 (2021-02-16)
+
+
+#### Features
+
+* **arcs:**
+  *  fix typo in useArcLinkLabelsTransition comment ([62766378](https://github.com/plouc/nivo/commit/627663785a247ab27d6fb128b721314d23138cab))
+  *  improve label accessor in ArcLinkLabelsProps ([3aa12a3b](https://github.com/plouc/nivo/commit/3aa12a3b8894fd76e8501bf2c7b3c3e46c149e8c))
+  *  finalize arc link labels ([89c52e60](https://github.com/plouc/nivo/commit/89c52e60db0ecc7b157e2f266b1049e2c4ad4596))
+  *  move canvas helpers to scoped directories ([f0d9d19c](https://github.com/plouc/nivo/commit/f0d9d19cb966e7181a1848fc4cca0f6d39af80b0))
+  *  improve labels handling ([c1bfd514](https://github.com/plouc/nivo/commit/c1bfd5143fc0878187d8d3a57891b3df67ebbd3f))
+  *  add the ability to pass custom arc label/arc link label components ([8fb574c9](https://github.com/plouc/nivo/commit/8fb574c9413ca509405a4cee456e2beef631d9f8))
+  *  provide generic arc labels/arc link labels layer ([547b6352](https://github.com/plouc/nivo/commit/547b63524776a23f08857a6e87a9d6241be772db))
+  *  normalize arc labels props ([08b75bff](https://github.com/plouc/nivo/commit/08b75bff02aab866d89cc159be6e511f72926c02))
+  *  fix arc border width ([f2223d77](https://github.com/plouc/nivo/commit/f2223d776125b8fad6cbe0060b0e0e5970ad6010))
+  *  move arc hover detection from core to arcs package ([30be4925](https://github.com/plouc/nivo/commit/30be4925ca124b80f60df28d80a5602abc9b9c1b))
+  *  add configurable transition modes ([e76747d7](https://github.com/plouc/nivo/commit/e76747d799d84331f79c097ea22e1645579a2bff))
+  *  introduce @nivo/arcs package ([afc6b8cc](https://github.com/plouc/nivo/commit/afc6b8cc6ac0d9a6b9957fe0038481cd3c383a21))
+* **chord:**  use arc hover detection from @nivo/arcs ([3eece0ad](https://github.com/plouc/nivo/commit/3eece0adf73927b6b0ca4b837c31da7373155432))
+* **core:**
+  *  improve property accessor utilities ([90958bdc](https://github.com/plouc/nivo/commit/90958bdc3296075af571977c65c7eb878566918f))
+  *  remove ts-ignore directive from useValueFormatter imports ([640393ba](https://github.com/plouc/nivo/commit/640393ba0050127427bc2d84cafe396cd81712f9))
+  *  improve value formatter typings ([5b158797](https://github.com/plouc/nivo/commit/5b158797da79430260c1e75165dd1c0cd15264e1))
+  *  remove license headers from hook modules ([09e3f839](https://github.com/plouc/nivo/commit/09e3f8393da73f49676b22587805ac113a6900a9))
+  *  remove license headers from lib modules ([e4eb8f72](https://github.com/plouc/nivo/commit/e4eb8f7282759aa4fb4efd6c2109e17d60357580))
+  *  remove license headers from props utilities ([b05913d1](https://github.com/plouc/nivo/commit/b05913d1bb559539f44356347ecf7d9ffe947bf6))
+  *  move arc bounding box unit tests to the arcs package ([6c30f05a](https://github.com/plouc/nivo/commit/6c30f05ae3b5ce2f9a6a28fe260464612502a7d2))
+* **legends:**  remove recompose from dependencies ([29e7531c](https://github.com/plouc/nivo/commit/29e7531cbe67ccf334ced15798c5397a8e4c7a63))
+* **pie:**
+  *  add story to showcase custom arc label component ([37cb3d15](https://github.com/plouc/nivo/commit/37cb3d15e44caf8c3322c50d9303eb556cd64cb2))
+  *  adjust stories according to refactoring ([4ca47ac6](https://github.com/plouc/nivo/commit/4ca47ac67f2d938bb8d8198b4d3aa53127d29736))
+  *  rename slices to arcs ([39f06445](https://github.com/plouc/nivo/commit/39f064451b195c4d228dced39698dadfd0612034))
+  *  fix typings for arc mouse handlers ([4d3d303f](https://github.com/plouc/nivo/commit/4d3d303f31a5f707aab5614d6962e6c5eae1de43))
+  *  use generic ArcsLayer from the arcs package ([b14ffcd3](https://github.com/plouc/nivo/commit/b14ffcd32935b9c2d75ad3a6501cdc736abab438))
+  *  compute radial lables in arcs package ([15625766](https://github.com/plouc/nivo/commit/156257668b51b08696a27a98d286557d8b3dfc16))
+  *  use mostly the arc package for PieCanvas ([46af372a](https://github.com/plouc/nivo/commit/46af372abd5e014d31484df635ab198fec5696f4))
+  *  use @nivo/arcs to compute PieCanvas slice labels ([ce6bb875](https://github.com/plouc/nivo/commit/ce6bb87596d093ac24a6995cf20508af8795fba0))
+  *  use Container instead of withContainer HOC ([0fb7756b](https://github.com/plouc/nivo/commit/0fb7756b585f3c47ec91c91c5105c5f968aee4bc))
+  *  fix angle padding ([3baba4c6](https://github.com/plouc/nivo/commit/3baba4c64f05816e1ec25e981a1d118773eae47b))
+  *  add radius offsets support for active arcs ([cfc0cb63](https://github.com/plouc/nivo/commit/cfc0cb6390c3059fb81d35938ae40387768cde42))
+  *  improve transitions and fix slice labels ([9365ae27](https://github.com/plouc/nivo/commit/9365ae27d0664a694775f2cf6637757f3180240b))
+  *  restore feature parity for slices ([5dbbe0cd](https://github.com/plouc/nivo/commit/5dbbe0cdff6b7ffb97193e7162cc600f29422a6f))
+  *  add transitions for arcs ([ccb1656d](https://github.com/plouc/nivo/commit/ccb1656dda852b1d282480e703224d9e4b2fb0d8))
+* **scales:**  add option to clamp linear scales (#1342) ([b5584de6](https://github.com/plouc/nivo/commit/b5584de60a2eab707f6cefe7be55bda4dbf72926))
+
+#### Bug Fixes
+
+* **arcs:**  fix packages version due to new release ([c1ddb3d0](https://github.com/plouc/nivo/commit/c1ddb3d01ca7ba91430e59a747c2d9bb0724a036))
+* **axes:**  rtl issue with x-axis (#1349) ([95f3b343](https://github.com/plouc/nivo/commit/95f3b3433971cdd037e3dba7031600d07eec27b7))
+* **axis:**  time series rendering ([e73b2abd](https://github.com/plouc/nivo/commit/e73b2abd052647fab6a1a9b5f9db66a8cd4c4107))
+* **core:**  fix type definition of PatternSquaresDef (#1355) ([bf27d55d](https://github.com/plouc/nivo/commit/bf27d55ddac7f5046bae1f9e545aa9e44346692d))
+* **doc:**  fix grammar errors in docs/comments ([b5bbeda7](https://github.com/plouc/nivo/commit/b5bbeda73c498705a7e8f106aa54aa44628eaaec))
+* **filterNullValues:**  improve performance ([34fdaa40](https://github.com/plouc/nivo/commit/34fdaa4003305961547044c6cb7fe75de2449f14))
+* **grouped:**  improve performance ([902929a7](https://github.com/plouc/nivo/commit/902929a753b3b46df7abf87b3c2d12b895c2974b))
+* **pie:**
+  *  fix pie stories ([4c8cde1e](https://github.com/plouc/nivo/commit/4c8cde1eacc90db4d8244d0f451794b7dc55decb))
+  *  fix existing tests due to usage of @nivo/arcs ([6d5fb272](https://github.com/plouc/nivo/commit/6d5fb2721235f6bdf301705f94206231db7e46d7))
+  *  fix skip angle for slice labels ([70c1ef24](https://github.com/plouc/nivo/commit/70c1ef24f15aaa4953d119fb8619cfa9c94bd233))
+* **website:**  fix typo in pie props (#1380) ([ce7c755b](https://github.com/plouc/nivo/commit/ce7c755b23cfc55ead9bac9920a55ef6e764bd99))
+
+
+
 <a name="v0.67.0"></a>
 ## v0.67.0 (2020-12-10)
 
