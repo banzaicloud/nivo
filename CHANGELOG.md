@@ -1,3 +1,13 @@
+<a name="v0.67.3"></a>
+## v0.67.3 (2021-02-16)
+
+
+#### Chore
+
+*   update package names ([80871005](https://github.com/plouc/nivo/commit/80871005a7c5cde3962b52ebfe2d10debfd60a74))
+
+
+
 <a name="v0.67.2"></a>
 ## v0.67.2 (2021-02-16)
 
