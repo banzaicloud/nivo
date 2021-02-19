@@ -1,3 +1,14 @@
+<a name="v0.67.4"></a>
+## v0.67.4 (2021-02-17)
+
+
+#### Chore
+
+*   externalize @banzaicloud deps ([9537d4da](https://github.com/plouc/nivo/commit/9537d4dac569abe5a382a33134cd28a8a8bfcbe7))
+*   remove .npmrc file ([62d72e6b](https://github.com/plouc/nivo/commit/62d72e6bacfa8f92f09d915833eda35af36e9123))
+
+
+
 <a name="v0.67.3"></a>
 ## v0.67.3 (2021-02-16)
 

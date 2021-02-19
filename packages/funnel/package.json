@@ -1,6 +1,6 @@
 {
   "name": "@banzaicloud/nivo-funnel",
-  "version": "0.67.4",
+  "version": "0.67.5",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -33,12 +33,12 @@
     "react-spring": "9.0.0-rc.3"
   },
   "devDependencies": {
-    "@banzaicloud/nivo-core": "^0.67.4"
+    "@banzaicloud/nivo-core": "^0.67.5"
   },
   "peerDependencies": {
     "@banzaicloud/nivo-annotations": "0.63.1",
     "@banzaicloud/nivo-colors": "0.63.0",
-    "@banzaicloud/nivo-core": "^0.67.4",
+    "@banzaicloud/nivo-core": "^0.67.5",
     "@banzaicloud/nivo-tooltip": "0.63.0",
     "prop-types": ">= 15.5.10 < 16.0.0",
     "react": ">= 16.8.4 < 18.0.0"

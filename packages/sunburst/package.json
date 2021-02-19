@@ -1,6 +1,6 @@
 {
   "name": "@banzaicloud/nivo-sunburst",
-  "version": "0.67.4",
+  "version": "0.67.5",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -29,20 +29,20 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@banzaicloud/nivo-colors": "^0.67.4",
-    "@banzaicloud/nivo-tooltip": "^0.67.4",
+    "@banzaicloud/nivo-colors": "^0.67.5",
+    "@banzaicloud/nivo-tooltip": "^0.67.5",
     "d3-hierarchy": "^1.1.8",
     "d3-shape": "^1.3.5",
     "lodash": "^4.17.11",
     "react-spring": "9.0.0-rc.3"
   },
   "devDependencies": {
-    "@banzaicloud/nivo-core": "^0.67.4",
+    "@banzaicloud/nivo-core": "^0.67.5",
     "@types/d3-hierarchy": "^1.1.7",
     "@types/d3-shape": "^1.3.5"
   },
   "peerDependencies": {
-    "@banzaicloud/nivo-core": "^0.67.4",
+    "@banzaicloud/nivo-core": "^0.67.5",
     "react": ">= 16.8.4 < 18.0.0"
   },
   "publishConfig": {

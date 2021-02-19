@@ -3,7 +3,7 @@
     "packages/*",
     "api"
   ],
-  "version": "0.67.4",
+  "version": "0.67.5",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
