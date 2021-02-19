@@ -28,7 +28,10 @@ export const getIndexScale = (data, getIndex, range, padding, indexScale) => {
 
 export const normalizeData = (data, keys) =>
     data.map(item => ({
-        ...keys.reduce((acc, key) => ({ ...acc, [key]: null }), {}),
+        ...keys.reduce((acc, key) => {
+            acc[key] = null
+            return acc
+        }, {}),
         ...item,
     }))
 
